@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="ChromeTestRunner(failed)">
+    <parameter name="password" value="manager"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="username" value="admin"/>
+    <classes>
+      <class name="testngpack.ActiTimeLogin">
+        <methods>
+          <include name="actitimeLogin" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testngpack.ActiTimeLogin -->
+    </classes>
+  </test> <!-- ChromeTestRunner(failed) -->
+</suite> <!-- Failed suite [Suite] -->
